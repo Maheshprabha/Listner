@@ -11,6 +11,7 @@ public class FilePath {
 	public static final String Config_Path = "./src/test/resources/config.properties"; 
 	public static final String locator_path = "./src/test/resources/Locators/loginpage.properties";
 	public static final String User_data = "./src/test/resources/userdata/userdetails.property";
+	
 }
 
 

@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\pc\Downloads\swag-master\swag-master\swaglabs\testng.xml</span>
+                    <span>C:\Users\pc\git\repository10\swaglabs\testngparameter.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.atmecs.swaglabs.testscript.TestSript" hash-for-method="login">login</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testng.parameter.ParameterTest" hash-for-method="validateCredentials(standard_user, secret_sauce)">validateCredentials(standard_user, secret_sauce)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -120,14 +120,15 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.atmecs.swaglabs.testscript.TestSript</span>
+              <span class="class-name">com.testng.parameter.ParameterTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
+                  <a name="validateCredentials(standard_user, secret_sauce)">
+                  </a> <!-- validateCredentials(standard_user, secret_sauce) -->
+                  <span class="method-name">validateCredentials</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +136,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\pc\Downloads\swag-master\swag-master\swaglabs\testng.xml</span>
+            <span class="header-content">C:\Users\pc\git\repository10\swaglabs\testngparameter.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -143,8 +144,10 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;secret_sauce&quot;/&gt;
+    &lt;parameter name=&quot;userName&quot; value=&quot;standard_user&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.atmecs.swaglabs.testscript.TestSript&quot;/&gt;
+      &lt;class name=&quot;com.testng.parameter.ParameterTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -186,14 +189,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login')
-data.setCell(0, 2, 'com.atmecs.swaglabs.testscript.TestSript')
-data.setCell(0, 3, 23818);
+data.setCell(0, 1, 'validateCredentials')
+data.setCell(0, 2, 'com.testng.parameter.ParameterTest')
+data.setCell(0, 3, 9277);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 23 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -219,14 +222,14 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.atmecs.swaglabs.testscript.TestSript</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.testng.parameter.ParameterTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">invokeBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">login</span>
-                <span class="method-start">91590 ms</span>
+                <span class="method-name">validateCredentials(standard_user, secret_sauce)</span>
+                <span class="method-start">84558 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

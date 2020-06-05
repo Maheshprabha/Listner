@@ -2,20 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="115498" started-at="2020-05-29T19:21:00 IST" finished-at="2020-05-29T19:22:56 IST">
+  <suite name="Suite" duration-ms="94107" started-at="2020-06-05T20:24:02 IST" finished-at="2020-06-05T20:25:36 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="115498" started-at="2020-05-29T19:21:00 IST" finished-at="2020-05-29T19:22:56 IST">
-      <class name="com.atmecs.swaglabs.testscript.TestSript">
-        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.atmecs.swaglabs.testscript.TestSript@5a8806ef]" name="invokeBrowser" is-config="true" duration-ms="91534" started-at="2020-05-29T19:21:00 IST" finished-at="2020-05-29T19:22:32 IST">
+    <test name="Test" duration-ms="94107" started-at="2020-06-05T20:24:02 IST" finished-at="2020-06-05T20:25:36 IST">
+      <class name="com.testng.parameter.ParameterTest">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.testng.parameter.ParameterTest@5e853265]" name="invokeBrowser" is-config="true" duration-ms="84439" started-at="2020-06-05T20:24:02 IST" finished-at="2020-06-05T20:25:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.atmecs.swaglabs.testscript.TestSript@5a8806ef]" name="login" duration-ms="23818" started-at="2020-05-29T19:22:32 IST" finished-at="2020-05-29T19:22:56 IST">
+        <test-method status="PASS" signature="validateCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.testng.parameter.ParameterTest@5e853265]" name="validateCredentials" duration-ms="9277" started-at="2020-06-05T20:25:26 IST" finished-at="2020-06-05T20:25:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- com.atmecs.swaglabs.testscript.TestSript -->
+        </test-method> <!-- validateCredentials -->
+      </class> <!-- com.testng.parameter.ParameterTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
